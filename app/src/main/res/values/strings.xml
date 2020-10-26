@@ -6,7 +6,7 @@
         <item>Play Game</item>
         <item>Standings</item>
     </string-array>
-    <string name="text_mainMenuFooter">Version 1.0\nDustinKaban\nT00663749</string>
+    <string name="text_mainMenuFooter">Version 1.0\nDustinKaban</string>
 
     <string name="text_enterNamesHeader">Enter Names</string>
     <string name="hint_EnterNameOne">Enter name here...</string>
