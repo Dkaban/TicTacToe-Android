@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="text_welcomeMessage">Welcome to Tic Tac Toe</string>
+    <string-array name="mainMenuOptions">
+        <item>Enter Names</item>
+        <item>Play Game</item>
+        <item>Standings</item>
+    </string-array>
+    <string name="text_mainMenuFooter">Version 1.0\nDustinKaban\nT00663749</string>
+
+    <string name="text_enterNamesHeader">Enter Names</string>
+    <string name="hint_EnterNameOne">Enter name here...</string>
+    <string name="hint_EnterNameTwo">Enter name here...</string>
+    <string name="button_saveName">Save Name(s)</string>
+
+    <string name="text_playGamesHeader">Play Game</string>
+    <string name="text_gamePlayTurnInformation">Its AAAs Turn Place an X</string>
+
+    <string name="text_standingsHeader">Standings</string>
+</resources>

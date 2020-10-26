@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EnterNamesActivity">
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_enterNames"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="3"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/text_enterNamesHeader"
+            android:layout_weight="0.25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_enterNamesHeader"
+            android:textSize="30sp"
+            android:textColor="#3CABFF"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/editText_playerOneName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:layout_weight="0.75"
+            android:hint="@string/hint_EnterNameOne"
+            android:gravity="center"
+            android:text=""/>
+
+        <EditText
+            android:id="@+id/editText_playerTwoName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:layout_weight="0.75"
+            android:hint="@string/hint_EnterNameTwo"
+            android:gravity="center"
+            android:text=""/>
+
+        <Button
+            android:id="@+id/button_saveNames"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/button_saveName"
+            android:textSize="30sp"
+            android:onClick="onClickSaveName"
+            android:layout_weight="0.5"
+            android:background="@color/colorPrimary"/>
+
+    </LinearLayout>
+
+</LinearLayout>
